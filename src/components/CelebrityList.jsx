@@ -112,7 +112,7 @@ deleteButton = (e) => {
       <td><button onClick ={this.deleteButton} value={this.state.table.indexOf(e)}>Delete</button></td>
       </tr>
     )
-  })
+  });
     
   
   render() {
